@@ -6,7 +6,7 @@ and exports it to an Excel file.
 # Project Structure
 
 * **main.py** - main script to run  
-* **config.py** - API headers and GraphQL query  
+* **config.py** - API headers(optional) and GraphQL query  
 * **models.py** - Pydantic models for API response validation
 * **requirements.txt** - basically requirements  
 * **results.xlsx** - output Excel file
@@ -16,8 +16,6 @@ and exports it to an Excel file.
 `pip install -r requirements.txt`
 
 # Run the script
-
-Make sure you upload your headers at [**config.py**](config.py) before launching script.
 
 `python main.py`
 
